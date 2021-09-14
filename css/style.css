@@ -14,6 +14,12 @@ body{
 /*end global*/
 
 /*start media*/
+@media (max-width: 992px) {
+    .slider{
+        max-height: 600px;!important;
+    }
+}
+
 @media (max-width: 576px) {
     .right span{
         display: none;
